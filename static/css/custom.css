@@ -1,0 +1,128 @@
+/* Cores principais */
+:root {
+  --primary-color: #f9a11b;
+  --secondary-color: #ff4d4d;
+  --background-color: #202020;
+  --text-color: #FFFFFF;
+}
+
+/* Cor dos links */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+.navbar {
+    background-color: #212121;
+    box-shadow: 0px 4px 10px #3f3f3f;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);;
+    transform: scale(1.1);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.navbar-brand:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+  color: #f9a11b;
+  text-shadow: 0 0 10px #f9a11b;
+}
+
+/* Cartões de conteúdo */
+.card {
+
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px var(--primary-color);
+  color: var(--text-color);
+}
+
+.card-title {
+  color: var(--primary-color);
+}
+
+/* Formulários */
+.form-control {
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: var(--text-color);
+}
+
+.form-control:focus {
+  background-color: var(--background-color);
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: var(--text-color);
+}
+
+/* Botões */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: var(--text-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: var(--text-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+/* Define a cor de fundo do body */
+body {
+    background-color: #111;
+}
+
+/* Define a cor do texto em branco */
+.text-white {
+    color: #fff;
+}
+
+/* Define a cor do texto em cinza */
+.text-gray {
+    color: #ccc;
+}

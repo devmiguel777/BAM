@@ -1,0 +1,53 @@
+/* Estilos para telas grandes (maiores que 992px) */
+@media (min-width: 992px) {
+  /* Estilos para a seção de boas-vindas */
+  .card.bg-dark.text-light {
+    height: 300px;
+  }
+  
+  /* Estilos para a seção de login */
+  .card.bg-light {
+    height: 250px;
+  }
+  
+  /* Estilos para a seção de registro */
+  .card.bg-light:nth-child(odd) {
+    margin-bottom: 30px;
+  }
+}
+
+/* Estilos para telas médias (entre 768px e 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para a seção de boas-vindas */
+  .card.bg-dark.text-light {
+    height: 250px;
+  }
+  
+  /* Estilos para a seção de login */
+  .card.bg-light {
+    height: 250px;
+  }
+  
+  /* Estilos para a seção de registro */
+  .card.bg-light:nth-child(odd) {
+    margin-bottom: 30px;
+  }
+}
+
+/* Estilos para telas pequenas (menores que 768px) */
+@media (max-width: 767px) {
+  /* Estilos para a seção de boas-vindas */
+  .card.bg-dark.text-light {
+    height: 200px;
+  }
+  
+  /* Estilos para a seção de login */
+  .card.bg-light {
+    height: 200px;
+  }
+  
+  /* Estilos para a seção de registro */
+  .card.bg-light:nth-child(odd) {
+    margin-bottom: 20px;
+  }
+}
